@@ -24,24 +24,24 @@ const Header = () => {
 
   return (
     <header
-      className="
-        fixed
-        top-0
-        left-0
-        right-0
-        z-50
-        h-[68px]
-        shrink-0
-        flex
-        items-center
-        justify-between
-        px-7
-        border-b
-        border-[var(--header-border)]
-        bg-[var(--header-bg)]
-        text-[var(--text)]
-      "
-    >
+  className="
+    fixed
+    top-0
+    left-[216px]
+    right-0
+    z-40
+    h-[68px]
+    shrink-0
+    flex
+    items-center
+    justify-between
+    px-7
+    border-b
+    border-[var(--header-border)]
+    bg-[var(--header-bg)]
+    text-[var(--text)]
+  "
+>
       {/* Search */}
       <div className="relative w-[380px]">
         <Search
